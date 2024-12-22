@@ -1,5 +1,5 @@
-//const {x , calculateSum} = require('./xyz')
-import { calculateSum } from "./xyz.js";
+const {calculateSum, calculateMultiply} = require('./calculate');
+
 
 var name = "Sunil"
 
@@ -10,3 +10,4 @@ console.log(a + b)
 console.log(name)
 
 calculateSum(10,30)
+calculateMultiply(10,30);
